@@ -6,16 +6,8 @@ hgroup {
 	
 }
 
-h1, h2, h3, h4, h5, h6 {
-	a {
-		color: inherit;
-
-		&:hover, &:active {
-			color: inherit;
-			border-bottom: none;
-		}
-	}
-}
+// headers
+// ----------------------------------------------------------------------------
 
 h1, %h1 {
 	@include rem(font-size, 32px);
@@ -41,6 +33,38 @@ h6, %h6 {
 	@include rem(font-size, 12px);
 }
 
+// links
+// ----------------------------------------------------------------------------
+
+a {
+	@include base-transition;
+	text-decoration: none;
+
+	&:hover {
+		border-bottom-style: dotted;
+		border-bottom-width: 1px;
+	}
+}
+
+%base-a-hidden {
+	text-decoration: none;
+	color: inherit;
+
+	&:hover, &:active {
+		color: inherit;
+		border-bottom: none;
+	}
+}
+
+h1, h2, h3, h4, h5, h6 {
+	a {
+		@extend %base-a-hidden;
+	}
+}
+
+// text, lists, tables
+// ----------------------------------------------------------------------------
+
 // bigger first paragraph
 .intro {
 	@include rem(font-size, 21px);
@@ -53,21 +77,21 @@ p, table, li {
 ol, ul {
 	margin-left: 1.5em; // bump to the right a little @ mobile sizes so the numbers/bullets don't run off
 
-	@media #{$small} {
-		margin-left: 0;
-	}
+	// @media #{$small} {
+	// 	margin-left: 0;
+	// }
 }
 
-a {
-	@include animation(all $base-duration);
-
-	&:hover {
-		border-bottom-style: dotted;
-		border-bottom-width: 1px;
-	}
+// use playfair display if @font-face is supported
+.fontface .amp {
+	font-family: "Baskerville", "Palatino", "Book Antiqua", serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 1.1em; // rel
 }
 
-.amp {
+// otherwise fall back to system fonts @ italic
+.no-fontface .amp {
 	font-family: "Baskerville", "Palatino", "Book Antiqua", serif;
 	font-style: italic;
 	font-weight: normal;
@@ -79,4 +103,11 @@ a {
 // 	Themes
 // ==============================================================================
 
+%theme-dark {
+	background: black;
+	color: white;
+}
 
+%theme-light {
+
+}

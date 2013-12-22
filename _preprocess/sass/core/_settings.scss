@@ -6,6 +6,10 @@ $path-images: "../images/";
 
 $base-duration: 0.5; // in seconds
 
+@mixin base-transition {
+  @include animation(all $base-duration ease);
+}
+
 // Colors
 // --------------------------------------------------------------------------
 
@@ -20,31 +24,38 @@ $color-selection: red;
 // Typography
 // --------------------------------------------------------------------------
 
-$type-size--default: 16px;
+$type-sizes: 16px, 20px, 22px, 24px;
+$type-size--default: nth($type-sizes, 1);
 $type-line_height: 1.5;
 
 
 // Containers/layout
 // --------------------------------------------------------------------------
+$l-header-h: 95px;
 
 // --- breakpoints ----------------------------------------------------------
-$breakpoints: breakpoints();
+// $breakpoints: 30em, 48em, 80em, 90em;
 
-$xsmall: nth($breakpoints, 1);
-$small: nth($breakpoints, 2);
-$medium: nth($breakpoints, 3);
-$large: nth($breakpoints, 4);
+$xsmall: 30em; //nth($breakpoints, 1);
+$small: 48em; //nth($breakpoints, 2);
+$medium: 80em; //nth($breakpoints, 3);
+$large: 90em; //nth($breakpoints, 4);
 
 
 // --- grid variables -------------------------------------------------------
 $grid-gutter: 24px; // convert to rem/em/percent
 
+$grid-columns: 6, 9, 12;
+
 // Singularity.gs setup
 // -> https://github.com/Team-Sass/Singularity
-$grids: add-grid(6);
-$grids: add-grid(9 at $small);
-$grids: add-grid(12 at $medium);
-$gutters: add-gutter($grid-gutter);
+$grids: nth($grid-columns, 1);
+$grids: add-grid(nth($grid-columns, 2) at $small);
+$grids: add-grid(nth($grid-columns, 3) at $medium);
+
+$gutters: $grid-gutter;
+
+$output: 'isolation';
 
 
 // --- default z-indexes ----------------------------------------------------

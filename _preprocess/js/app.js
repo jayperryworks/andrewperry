@@ -1,10 +1,10 @@
 (function($) {
   
   // ================================================================
-  // SITE_NAME behaviors
+  // andrewperry behaviors
   // ================================================================
 
-  var SITE_NAME = { // namespace setup
+  var andrewperry = { // namespace setup
 
     config : {
 
@@ -12,23 +12,15 @@
       // -> global vars go here
       // --------------------------------------------------------------- 
 
-      // grab breakpoint values from a JSON file, shared by JS and SASS
-      // -> this is just for convenience during development
-      // -> when deploying to prod, paste in the actual values so we don't have to load an extra http request
-      breakpoints : 'config/breakpoints.json'
+      // media query breakpoints
+      breakpoints : ["30em", "48em", "80em", "90em"]
 
     },
 
     // Setup
     // ---------------------------------------------------------------
     init : function(config) {
-      $.extend(SITE_NAME.config, config);
-
-      // handler that will be called when breakpoints.json loads successfully
-      $.get(fa.config.breakpoints).done(function (response, textStatus, jqXHR){
-          console.log("breakpoints: " + response);
-      });
-
+      $.extend(andrewperry.config, config);
 
     },
 
@@ -40,6 +32,6 @@
 
   
   $(window).load(function() {
-    SITE_NAME.init();
+    andrewperry.init();
   });
 })(jQuery);

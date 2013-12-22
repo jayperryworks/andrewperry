@@ -1,0 +1,776 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"meta",
+				"meta--horizontal"
+			],
+			[
+				"base",
+				"base-border--thick"
+			],
+			[
+				"toggle",
+				"toggleHeader"
+			],
+			[
+				"menuBtn",
+				"menuBtn_w"
+			],
+			[
+				"inline-",
+				"inline-block--centered"
+			],
+			[
+				"border",
+				"border-weight--thick"
+			],
+			[
+				"gray",
+				"gray--dark"
+			],
+			[
+				"gray--",
+				"gray--medium"
+			],
+			[
+				"gray-",
+				"gray--medium"
+			],
+			[
+				"span",
+				"span-columns-center"
+			],
+			[
+				"grid",
+				"grid-column"
+			],
+			[
+				"default",
+				"default-font"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 367.0,
+		"selected_items":
+		[
+			[
+				"pacak",
+				"Package Control: Install Package"
+			],
+			[
+				"package",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: inst",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: in",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: li",
+				"Package Control: List Packages"
+			],
+			[
+				"pacakge",
+				"Package Control: Install Package"
+			],
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"enc",
+				"HTML: Encode Special Characters"
+			],
+			[
+				"Snippet: ",
+				"Snippet: #!/usr/bin/env"
+			],
+			[
+				"html",
+				"HTML: Encode Special Characters"
+			],
+			[
+				"",
+				"HTML: Encode Special Characters"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 358.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/jay/Projects/_Internal/andrewperry.com/build/_preprocess/sass/core/_content.scss",
+		"/Users/jay/Projects/_Internal/andrewperry.com/build/_preprocess/sass/core/_settings.scss",
+		"/Users/jay/Bank/templates/web/jekyll boilerplate/README.md",
+		"/Users/jay/Projects/_Internal/andrewperry.com/build/_config.yml",
+		"/Users/jay/Projects/_Internal/andrewperry.com/build/config.rb",
+		"/Users/jay/Projects/_Internal/andrewperry.com/build/_preprocess/sass/core/_base.scss",
+		"/Users/jay/Projects/_Internal/andrewperry.com/build/sgs-demos/sass/demo-isolation.scss",
+		"/Users/jay/Projects/_Internal/andrewperry.com/build/_preprocess/sass/core/_fonts.scss",
+		"/Users/jay/Projects/_Internal/andrewperry.com/build/_preprocess/sass/core/_helpers.scss",
+		"/Users/jay/Projects/_Internal/andrewperry.com/build/sgs-demos/config.rb",
+		"/Users/jay/Projects/_Internal/andrewperry.com/build/_preprocess/sass/core/_layout.scss",
+		"/Users/jay/Projects/_Internal/andrewperry.com/build/_preprocess/sass/core/_normalize.scss",
+		"/Users/jay/Projects/_Internal/andrewperry.com/build/_preprocess/sass/core/_print.scss",
+		"/Users/jay/Projects/_Internal/andrewperry.com/build/_preprocess/sass/core/_syntax.scss",
+		"/Users/jay/Projects/_Internal/andrewperry.com/build/_preprocess/js/app.js",
+		"/Users/jay/Projects/Bivee/BV.13024 Worksmart updates/build/app/views/home/_current_templates.html.erb",
+		"/Users/jay/Projects/Bivee/BV.13024 Worksmart updates/build/app/views/home/index.html.erb",
+		"/Users/jay/Projects/Bivee/BV.13024 Worksmart updates/build/app/views/home/_current_docs.html.erb",
+		"/Users/jay/Projects/Bivee/BV.13024 Worksmart updates/build/app/views/resources/index.html.erb",
+		"/Users/jay/Projects/Bivee/BV.13024 Worksmart updates/build/app/controllers/home_controller.rb",
+		"/Users/jay/Projects/Bivee/BV.13024 Worksmart updates/build/app/views/documents/table_index.html.erb",
+		"/Users/jay/Projects/Bivee/BV.13024 Worksmart updates/build/app/views/documents/index.html.erb",
+		"/Users/jay/Projects/Bivee/BV.13024 Worksmart updates/build/app/controllers/profiles_controller.rb",
+		"/Users/jay/Projects/Bivee/BV.13024 Worksmart updates/build/app/views/profiles/_refresh_profile.html.erb",
+		"/Users/jay/Projects/Bivee/BV.13024 Worksmart updates/build/app/views/layouts/application.html.erb",
+		"/Users/jay/Projects/Bivee/BV.13024 Worksmart updates/build/app/views/home/mentor.html.erb",
+		"/Users/jay/Projects/Bivee/BV.13024 Worksmart updates/build/app/views/home/mentor_all.html.erb",
+		"/Users/jay/Projects/Bivee/BV.13024 Worksmart updates/build/app/views/layouts/_person_listing.html.erb",
+		"/Users/jay/Projects/Bivee/BV.13024 Worksmart updates/build/app/assets/stylesheets/profiles.css.scss",
+		"/Users/jay/Projects/Bivee/BV.13024 Worksmart updates/build/app/controllers/documents_controller.rb",
+		"/Users/jay/Projects/Bivee/BV.13024 Worksmart updates/build/app/views/documents/show.html.erb",
+		"/Users/jay/Projects/Bivee/BV.13024 Worksmart updates/build/app/views/documents/_filter.html.erb",
+		"/Users/jay/Downloads/iconmonstr-upload-10-icon.svg",
+		"/Users/jay/Projects/Bivee/BV.13024 Worksmart updates/build/app/views/layouts/document_default.html.erb",
+		"/Users/jay/Projects/Bivee/BV.13024 Worksmart updates/build/README.md",
+		"/Users/jay/Projects/Bivee/BV.13024 Worksmart updates/build/app/views/documents/edit.html.erb",
+		"/Users/jay/Projects/Bivee/BV.13024 Worksmart updates/build/.gitignore",
+		"/Users/jay/Projects/Bivee/BV.13024 Worksmart updates/build/worksmart.sublime-project",
+		"/Users/jay/Projects/Bivee/BV.13024 Worksmart updates/build/app/views/documents/print.html.erb",
+		"/Users/jay/Bank/resources/development/terminal/install-postgresql--with_brew.txt",
+		"/Users/jay/Desktop/page.txt",
+		"/Users/jay/Projects/System13/Form Accelerator/prerelease blog/mockups/_preprocess/sass/modules/_faq.scss",
+		"/Users/jay/Projects/System13/Form Accelerator/prerelease blog/mockups/_preprocess/sass/modules/_button.scss",
+		"/Users/jay/Projects/System13/Form Accelerator/prerelease blog/mockups/_preprocess/sass/modules/_form.scss",
+		"/Users/jay/Projects/System13/Form Accelerator/prerelease blog/mockups/_preprocess/sass/modules/_footer.scss",
+		"/Users/jay/Projects/System13/Form Accelerator/prerelease blog/mockups/_preprocess/js/plugins/typography.js",
+		"/Users/jay/Projects/System13/Form Accelerator/prerelease blog/mockups/Guardfile",
+		"/Users/jay/Projects/System13/Form Accelerator/prerelease blog/mockups/breakpoints.json",
+		"/Users/jay/Projects/System13/Form Accelerator/prerelease blog/mockups/_preprocess/sass/app.scss",
+		"/Users/jay/Projects/System13/Form Accelerator/prerelease blog/mockups/Gemfile",
+		"/Users/jay/Projects/System13/Form Accelerator/prerelease blog/mockups/_preprocess/sass/core/_helpers.scss",
+		"/Users/jay/Projects/System13/Form Accelerator/prerelease blog/mockups/_preprocess/sass/modules/_navigation.scss",
+		"/Users/jay/Projects/System13/Form Accelerator/prerelease blog/mockups/_preprocess/sass/core/_fonts.scss",
+		"/Users/jay/Projects/System13/Form Accelerator/prerelease blog/mockups/scratch.html",
+		"/Users/jay/Projects/System13/Form Accelerator/prerelease blog/mockups/_preprocess/sass/modules/_post.scss",
+		"/Users/jay/Projects/System13/Form Accelerator/prerelease blog/mockups/_preprocess/sass/core/_content.scss",
+		"/Users/jay/Projects/System13/Form Accelerator/prerelease blog/mockups/_preprocess/sass/core/_layout.scss",
+		"/Users/jay/Projects/System13/Form Accelerator/prerelease blog/mockups/_preprocess/sass/core/_settings-foundation.scss",
+		"/Users/jay/Projects/System13/Form Accelerator/prerelease blog/mockups/_preprocess/sass/modules/_header.scss",
+		"/Users/jay/Projects/System13/Form Accelerator/prerelease blog/mockups/_preprocess/sass/core/_base.scss",
+		"/Users/jay/Projects/System13/Form Accelerator/prerelease blog/mockups/.sass-cache/fd48dfbd4ea9e4474cfbca28b391cb009fc54239/_content.scssc",
+		"/Users/jay/Projects/System13/Form Accelerator/prerelease blog/mockups/_config.yml",
+		"/Users/jay/Projects/System13/Form Accelerator/prerelease blog/mockups/config.rb",
+		"/Users/jay/Projects/System13/Form Accelerator/prerelease blog/mockups/support-faq.html",
+		"/Users/jay/CloudStation/app preferences/Preferences.sublime-settings",
+		"/Users/jay/Projects/System13/Form Accelerator/prerelease blog/mockups/_preprocess/sass/modules/_form.html",
+		"/Users/jay/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/Users/jay/Library/Application Support/Sublime Text 2/Packages/Package Control/Package Control.sublime-settings",
+		"/Users/jayperry/Projects/System13/Form Accelerator/prerelease blog/mockups/_preprocess/sass/core/_content.scss",
+		"/Users/jayperry/Projects/System13/Form Accelerator/prerelease blog/mockups/_config.yml",
+		"/Users/jayperry/Projects/System13/Form Accelerator/prerelease blog/mockups/_preprocess/sass/core/_base.scss",
+		"/Users/jayperry/Projects/System13/Form Accelerator/prerelease blog/mockups/_preprocess/js/plugins/transit.js",
+		"/Users/jayperry/Projects/System13/Form Accelerator/prerelease blog/mockups/_preprocess/sass/modules/_button.scss",
+		"/Users/jayperry/Projects/System13/Form Accelerator/prerelease blog/mockups/_preprocess/sass/modules/_post.scss",
+		"/Users/jayperry/Projects/System13/Form Accelerator/prerelease blog/mockups/_preprocess/sass/app.scss",
+		"/Users/jayperry/Projects/System13/Form Accelerator/prerelease blog/mockups/_posts/2013-09-16-welcome-to-jekyll.markdown",
+		"/Users/jayperry/Projects/System13/Form Accelerator/prerelease blog/mockups/_preprocess/sass/core/helpers/_layout.scss",
+		"/Users/jayperry/Projects/System13/Form Accelerator/prerelease blog/mockups/_preprocess/sass/core/_settings-foundation.scss",
+		"/Users/jayperry/Projects/System13/Form Accelerator/prerelease blog/mockups/_preprocess/sass/modules/_strip.scss",
+		"/Users/jayperry/Projects/System13/Form Accelerator/prerelease blog/mockups/_includes/post-FPO.html",
+		"/Users/jayperry/Projects/System13/Form Accelerator/prerelease blog/mockups/_preprocess/sass/modules/_navigation.scss",
+		"/Users/jayperry/Projects/System13/Form Accelerator/prerelease blog/mockups/_preprocess/sass/modules/_footer.scss",
+		"/Users/jayperry/Projects/System13/Form Accelerator/prerelease blog/mockups/_preprocess/sass/modules/_header.scss",
+		"/Users/jayperry/Projects/System13/Form Accelerator/prerelease blog/mockups/_preprocess/sass/modules/_hero.scss",
+		"/Users/jayperry/Projects/System13/Form Accelerator/prerelease blog/mockups/_preprocess/sass/core/_layout.scss",
+		"/Users/jayperry/Projects/System13/Form Accelerator/prerelease blog/mockups/_preprocess/sass/modules/_form.html",
+		"/Users/jayperry/Projects/System13/Form Accelerator/prerelease blog/mockups/_preprocess/js/app.js",
+		"/Users/jayperry/Projects/System13/Form Accelerator/prerelease blog/mockups/_preprocess/js/plugins/enquire.js",
+		"/Users/jayperry/Projects/System13/Form Accelerator/prerelease blog/mockups/_includes/support-nav.html",
+		"/Users/jayperry/Projects/System13/Form Accelerator/prerelease blog/mockups/support-tutorials.html",
+		"/Users/jayperry/.Trash/faq-FPO.html",
+		"/Users/jayperry/.Trash/support.html",
+		"/Users/jayperry/Projects/System13/Form Accelerator/prerelease blog/mockups/_includes/faq-FPO.html",
+		"/Users/jayperry/Projects/System13/Form Accelerator/prerelease blog/mockups/blog.html",
+		"/Users/jayperry/Projects/System13/Form Accelerator/prerelease blog/mockups/_preprocess/sass/core/_settings-global.scss",
+		"/Users/jayperry/Projects/System13/Form Accelerator/prerelease blog/mockups/_preprocess/sass/modules/_logo.scss",
+		"/Users/jayperry/Projects/System13/Form Accelerator/prerelease blog/mockups/.sass-cache/fd48dfbd4ea9e4474cfbca28b391cb009fc54239/_layout.scssc",
+		"/Users/jayperry/Projects/System13/Form Accelerator/prerelease blog/mockups/_preprocess/sass/core/_fonts.scss",
+		"/Users/jayperry/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/jayperry/Projects/System13/Form Accelerator/prerelease blog/mockups/_preprocess/sass/core/helpers/_effects.scss",
+		"/Users/jayperry/Projects/System13/Form Accelerator/prerelease blog/mockups/.sass-cache/fd48dfbd4ea9e4474cfbca28b391cb009fc54239/_settings-foundation.scssc",
+		"/Users/jayperry/Projects/System13/Form Accelerator/prerelease blog/mockups/_preprocess/sass/core/helpers/_units.scss",
+		"/Users/jayperry/Desktop/footer.php",
+		"/Users/jayperry/Projects/System13/Form Accelerator/prerelease blog/mockups/_layouts/post.html",
+		"/Users/jayperry/Projects/System13/Form Accelerator/prerelease blog/mockups/.gitignore",
+		"/Users/jayperry/Projects/System13/Form Accelerator/prerelease blog/mockups/config.rb",
+		"/Users/jayperry/Projects/System13/Form Accelerator/prerelease blog/mockups/index-foundation.html",
+		"/Users/jayperry/Projects/System13/Form Accelerator/prerelease blog/mockups/_preprocess/sass/_modules.scss",
+		"/Users/jayperry/Projects/System13/Form Accelerator/prerelease blog/mockups/_preprocess/sass/core/base/_helpers.scss",
+		"/Users/jayperry/Projects/System13/Form Accelerator/prerelease blog/mockups/_preprocess/sass/modules/button.scss",
+		"/Users/jayperry/Projects/System13/Form Accelerator/prerelease blog/mockups/_preprocess/sass/core/_helpers.scss",
+		"/Users/jayperry/Projects/System13/Form Accelerator/prerelease blog/mockups/_preprocess/sass/core/_settings.scss",
+		"/Users/jayperry/Projects/System13/Form Accelerator/prerelease blog/mockups/_preprocess/sass/modules/_form.scss",
+		"/Users/jayperry/Library/Application Support/Sublime Text 2/Packages/Default/Default (OSX).sublime-keymap",
+		"/Users/jayperry/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/Users/jayperry/Projects/Engage/Engage site redesign/mockups/_preprocess/sass/core/helpers/_html5bp.scss",
+		"/Users/jayperry/Projects/Engage/Engage site redesign/mockups/_preprocess/sass/core/_base.scss",
+		"/Users/jayperry/Projects/Engage/Engage site redesign/mockups/_assets/js/app.js",
+		"/Users/jayperry/Projects/Engage/Engage site redesign/mockups/_assets/sass/_modules.scss",
+		"/Users/jayperry/Projects/Engage/Engage site redesign/mockups/_assets/sass/_neat-settings.scss",
+		"/Users/jayperry/Projects/Engage/Engage site redesign/mockups/_assets/sass/core/_content.scss",
+		"/Users/jayperry/Projects/Engage/Engage site redesign/mockups/_assets/sass/core/_settings.scss",
+		"/Users/jayperry/Projects/Engage/Engage site redesign/mockups/_assets/sass/core/helpers/_layout.scss",
+		"/Users/jayperry/Projects/Engage/Engage site redesign/mockups/_assets/sass/core/helpers/_rem.scss",
+		"/Users/jayperry/Projects/Engage/Engage site redesign/mockups/_preprocess/sass/core/helpers/_effects.scss",
+		"/Users/jayperry/Projects/Engage/Engage site redesign/mockups/_assets/sass/app.scss",
+		"/Users/jayperry/Projects/Engage/Engage site redesign/mockups/_config.yml",
+		"/Users/jayperry/Projects/Engage/Engage site redesign/mockups/_assets/sass/core/_normalize.scss"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"*.scss, *.html",
+			"*.scss",
+			".scss",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"$type-selection-color",
+			"screen",
+			"// ==========================================================================\n   ",
+			"\n   ",
+			"   ========================================================================== */",
+			"/* ==========================================================================",
+			"base-",
+			"media",
+			"conformHeight",
+			"el",
+			"applicationMethods.equalHeight.getOriginalHeight",
+			"equalHeight",
+			"group",
+			"applicationMethods.adjustHeight();",
+			"margin",
+			"4",
+			"card_grid col-4",
+			"section",
+			"breakpoint",
+			"li",
+			"3",
+			"h3",
+			"4",
+			"<h4 class=\"subheader\"",
+			"true",
+			"avatar",
+			"gridCalc",
+			"($cols/$total-columns)",
+			"jay.perry.works",
+			"4",
+			"2",
+			"#content",
+			"profile",
+			"profile.user",
+			"@profile",
+			"6",
+			"item-card",
+			"home",
+			"section",
+			"h4",
+			", :style => \"width=100%\"",
+			"class=\"\"",
+			"h3",
+			"//",
+			"<li>(file: sk&a-graphic.png text: Download: PNG class: button)</li>",
+			"fa.config.header",
+			"fa.config.nav",
+			"header",
+			"move_button",
+			"fa.config.nav.signup",
+			"dropdown",
+			"targeted_menu",
+			"margin",
+			"href=\"\"",
+			"stripSelector",
+			"getMargin",
+			"$medium",
+			",",
+			"h3",
+			"$global-radius",
+			"h5",
+			"5",
+			"$center: true",
+			"narrow",
+			", $center: true",
+			"narrow",
+			"post.excerpt",
+			"nest",
+			"nav-item",
+			"cursor--pointer",
+			"answer",
+			"E760",
+			"fa-counter",
+			"my-badass-counter",
+			"border",
+			"12px",
+			"$w",
+			"12px",
+			"radius",
+			"$base-font-size",
+			"$outset",
+			"'active'",
+			"4",
+			"mobile-hide",
+			"h1",
+			"local-item",
+			"em-calc(",
+			" + $gutter",
+			");",
+			"getMargin",
+			"fa.toggleIcon(threshold, margin, $nav_dropdown);",
+			"setupMenu",
+			"dropdown",
+			"px",
+			"$fff",
+			"white",
+			".local.tabs {\n	@include section-container($section-type: accordion);\n\n  @media #{$small} {\n    @include section-container(true, $section-type: tabs);\n  }\n}\n\n.local.tab.content {\n	@include section(\n		$section-type:accordion, \n		$title-selector:\".local.tab.title\", \n		$content-selector:\".local.tab.content\"\n	);\n\n	@media #{$small} {\n		@include section(\n			$section-type:tabs, \n			$title-selector:\".local.tab.title\", \n			$content-selector:\".local.tab.content\"\n		);\n	}\n}",
+			"wrapper",
+			"</a></p>",
+			"p class=\"title\"",
+			"p",
+			"<article>",
+			"article",
+			"</strong>",
+			"<strong>",
+			"h4",
+			":",
+			"tabs",
+			"<div data-slug",
+			" mobile-hide",
+			"toggleMenuBtn",
+			"showMenuBtn",
+			"src=\"assets",
+			"'});\n",
+			"$menuBtn_w",
+			"header_h",
+			"showLogo",
+			"y_pos",
+			"$header-h",
+			"24",
+			"1",
+			"h2",
+			"li",
+			"$dark-blue",
+			"h4",
+			"</strong>",
+			"<strong>",
+			";\n"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"fa.nav.header",
+			"fa.nav",
+			"png",
+			"pdf",
+			"png",
+			"pdf",
+			"png",
+			"pdf",
+			"png",
+			"pdf",
+			"png",
+			"pdf",
+			"png",
+			"pdf",
+			"png",
+			"pdf",
+			"png",
+			"pdf",
+			"png",
+			"pdf",
+			"png",
+			"pdf",
+			"png",
+			"pdf",
+			"png",
+			"pdf",
+			"png",
+			"pdf",
+			"png",
+			"pdf",
+			"png",
+			"pdf",
+			"png",
+			"pdf",
+			"eti",
+			"png",
+			"pdf",
+			"md",
+			"png",
+			"pdf",
+			"dc",
+			"png",
+			"pdf",
+			"diversity",
+			"png",
+			"pdf",
+			"sustain",
+			"png",
+			"pdf",
+			"rr",
+			"pdf",
+			"png",
+			"diversity",
+			"png",
+			"pdf",
+			"png",
+			"sustain",
+			"png",
+			"pdf",
+			"rr",
+			"reverse",
+			"rev",
+			"png",
+			"pdf",
+			"design",
+			"reverse",
+			"SK&A",
+			"pdf",
+			"png",
+			"Download: EPS<",
+			"url('../fonts/",
+			"**K:**",
+			"**Y:**",
+			"**M:**",
+			"**C:**",
+			"**B:**",
+			"**G:**",
+			"**R:**",
+			"*R*:",
+			"rev",
+			"reverse",
+			"positive",
+			"reverse",
+			"rev",
+			"reverse",
+			"rev",
+			"reverse",
+			"rev",
+			"eti",
+			"rev",
+			"SK&AMD",
+			"eti",
+			".js\")",
+			"( ?>",
+			"<?php echo js(",
+			"src=\"assets/javascripts"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		},
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.533803138432,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 112.0
+	},
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"person",
+				"app/views/shared/_person_listing.html.erb"
+			],
+			[
+				"",
+				"app/views/profiles/show.html.erb"
+			],
+			[
+				"custom",
+				"app/assets/stylesheets/_custom_settings.scss"
+			],
+			[
+				"faq",
+				"_preprocess/sass/modules/_faq.scss"
+			],
+			[
+				"footer",
+				"_preprocess/sass/modules/_footer.scss"
+			],
+			[
+				"but",
+				"_preprocess/sass/modules/_button.scss"
+			],
+			[
+				"foot",
+				"_preprocess/sass/modules/_footer.scss"
+			],
+			[
+				"form",
+				"_preprocess/sass/modules/_form.scss"
+			],
+			[
+				"post",
+				"_includes/post-FPO.html"
+			],
+			[
+				"blo",
+				"blog.html"
+			],
+			[
+				"app",
+				"_preprocess/sass/app.scss"
+			],
+			[
+				"hel",
+				"_preprocess/sass/core/_helpers.scss"
+			],
+			[
+				"break",
+				"breakpoints.json"
+			],
+			[
+				"her",
+				"_preprocess/sass/modules/_hero.scss"
+			],
+			[
+				"nav",
+				"_preprocess/sass/modules/_navigation.scss"
+			],
+			[
+				"po",
+				"_preprocess/sass/modules/_post.scss"
+			],
+			[
+				"lay",
+				"_preprocess/sass/core/_layout.scss"
+			],
+			[
+				"sett",
+				"_preprocess/sass/core/_settings-foundation.scss"
+			],
+			[
+				"cont",
+				"_preprocess/sass/core/_content.scss"
+			],
+			[
+				"fonts",
+				"_preprocess/sass/core/_fonts.scss"
+			],
+			[
+				"contet",
+				"_preprocess/sass/core/_content.scss"
+			],
+			[
+				"base",
+				"_preprocess/sass/core/_base.scss"
+			],
+			[
+				"font",
+				"_preprocess/sass/core/_fonts.scss"
+			],
+			[
+				"settin",
+				"_preprocess/sass/core/_settings-foundation.scss"
+			],
+			[
+				"content",
+				"_preprocess/sass/core/_content.scss"
+			],
+			[
+				"_layou",
+				"_preprocess/sass/core/_layout.scss"
+			],
+			[
+				"set",
+				"_preprocess/sass/core/_settings-global.scss"
+			],
+			[
+				"head",
+				"_preprocess/sass/modules/_header.scss"
+			],
+			[
+				"setting",
+				"_preprocess/sass/core/_settings-foundation.scss"
+			],
+			[
+				"def",
+				"_layouts/default.html"
+			],
+			[
+				"settings",
+				"_preprocess/sass/core/_settings-global.scss"
+			],
+			[
+				"header",
+				"_preprocess/sass/modules/_header.scss"
+			],
+			[
+				"foo",
+				"_preprocess/sass/modules/_footer.scss"
+			],
+			[
+				"conte",
+				"_preprocess/sass/core/_content.scss"
+			],
+			[
+				"heade",
+				"_preprocess/sass/modules/_header.scss"
+			],
+			[
+				"stri",
+				"_preprocess/sass/modules/_strip.scss"
+			],
+			[
+				"layou",
+				"_preprocess/sass/core/_layout.scss"
+			],
+			[
+				"la",
+				".sass-cache/fd48dfbd4ea9e4474cfbca28b391cb009fc54239/_layout.scssc"
+			],
+			[
+				"settings-",
+				"_preprocess/sass/core/_settings-foundation.scss"
+			],
+			[
+				"a",
+				"_preprocess/sass/app.scss"
+			],
+			[
+				"butt",
+				"_preprocess/sass/modules/_button.scss"
+			],
+			[
+				"effe",
+				"_preprocess/sass/core/helpers/_effects.scss"
+			],
+			[
+				"effec",
+				"_preprocess/sass/core/helpers/_effects.scss"
+			],
+			[
+				"helpers.scss",
+				"_preprocess/sass/core/helpers/_effects.scss"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 268.0,
+	"status_bar_visible": true
+}

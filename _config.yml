@@ -1,8 +1,8 @@
-name: SITE NAME
-url: http://jayperryworks.com
+name: Andrew Perry
+url: http://andrewperry.us
 baseurl: 
 
 markdown: redcarpet
 pygments: true
 
-exclude: ["README.md", "config.rb", "*.sublime-project", "*.sublime-workspace", "Guardfile", "Gemfile", "Gemfile.lock", ".sass-cache"]
+exclude: ["README.md", "config.rb", "andrewperry.sublime-project", "andrewperry.sublime-workspace", "Guardfile", "Gemfile", "Gemfile.lock", ".sass-cache"]

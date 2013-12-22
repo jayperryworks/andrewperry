@@ -1,13 +1,27 @@
 ---
 layout: default
-title: Your New Jekyll Site
+title: Work
 ---
 
-<div id="home">
-  <h1>Blog Posts</h1>
-  <ul class="posts">
-    {% for post in site.posts %}
-      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
-    {% endfor %}
-  </ul>
+<div class="hero">
+	<hgroup class="wrapper">
+	  <h1>I like to make things from 200 years ago.</h1>
+	  <h3>Using hammers and wearing "breeches." As God intended.</h3>
+	</hgroup>
 </div>
+
+<main role="main">
+	<nav role="navigation" class="local">
+		<ul>
+			<li><a href="#" class="local-item active">Show all</a></li>
+			<li><a href="#" class="local-item">Steel</a></li>
+			<li><a href="#" class="local-item">Wood</a></li>
+			<li><a href="#" class="local-item">Fabric</a></li>
+		</ul>
+	</nav>
+	<ul class="grid">
+		{% for i in (1...9) %}
+		{% include thumb.html %}
+		{% endfor %}
+	</ul>
+</main>

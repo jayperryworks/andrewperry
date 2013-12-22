@@ -5,31 +5,31 @@
 // BASE
 // -----------------------------------------------------------------------------
 
-.header {
+[role="banner"], .header {
 	
 }
 
 // SUBMODULES
 // -----------------------------------------------------------------------------
 
-[role="banner"].global {
-	// @extend %theme-dark;
-	// @include single-transition;
-	@include base-grid-margins($property: padding, $full: true, $add-gutter: true);
-	@include rem(height, $header-h);
-	display: block;
-	position: fixed;
-	left: 0;
-	right: 0;
-	top: 0;
+[role="banner"].main {
+	position: absolute;
 	width: 100%;
-	margin: 0;
-	z-index: $base-z--high;
-	background: $color-header;
-	border-bottom: 1px solid $black;
+	left: 0;
+	top: 0;
+	right: 0;
+	z-index: $z--high;
+	height: $l-header-h;
+	border-top: 8px solid black;	
+	text-align: center;
 }
 
-// [role="banner"].is-sticky {
-// 	position: fixed;
-// 	top: -#{$header-h};
-// }
+.main-logo {
+	@extend %base-a-hidden;
+	// @include inline-block;
+	display: block;
+	left: 50%;
+	// margin-left: (61px)/2;
+	@include rem(margin, 12px 0 0 -30.5px);
+	position: absolute;
+}
