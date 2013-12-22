@@ -6,26 +6,24 @@
   <head>
       <meta charset="utf-8">
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
-      <title>{{ site.name }}{% if page.title != "Home" %} | {{ page.title }}{% endif %}</title>
+      <title>{{ site.name }}{% if page.title != "Work" %} | {{ page.title }}{% endif %}</title>
       <meta name="description" content="">
       <meta name="viewport" content="width=device-width, initial-scale=1">
 
-      <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-
-      <link rel="stylesheet" href="assets/css/app.css">
+      <link rel="stylesheet" href="{{ site.baseurl }}assets/css/app.css">
       <script src="{{ site.baseurl }}assets/js/vendor/modernizr.custom.11128.js"></script>
   </head>
   <body id="{{ page.title | downcase }}">
     <header role="banner" class="main">
-      <a href="{{ site.baseurl }}/" class="main-logo">
-        <img src="{{ site.baseurl }}/assets/images/{% if page.title == "Work" %}logo.png{% else %}logo-dark.png{% endif %}" alt="Andrew Perry" /><!--
+      <a href="{{ site.baseurl }}" class="main-logo">
+        <img src="{{ site.baseurl }}assets/images/{% if page.title == "Work" %}logo.png{% else %}logo-dark.png{% endif %}" alt="Andrew Perry" /><!--
       --></a>
       <nav role="navigation" class="global">
         <ul>
           <li>
-            <a href="{{ site.baseurl }}/">Work</a>
-            <a href="{{ site.baseurl }}/blog.html">Thinking</a>
-            <a href="{{ site.baseurl }}/about.html">About</a>
+            <a href="{{ site.baseurl }}">Work</a>
+            <a href="{{ site.baseurl }}blog/">Thinking</a>
+            <a href="{{ site.baseurl }}about/">About</a>
           </li>
         </ul>
       </nav>

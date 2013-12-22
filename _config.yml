@@ -3,6 +3,9 @@ url: http://andrewperry.us
 baseurl: 
 
 markdown: redcarpet
+redcarpet:
+  extensions: ['smart', 'tables', 'autolink']
+
 pygments: true
 
 exclude: ["README.md", "config.rb", "andrewperry.sublime-project", "andrewperry.sublime-workspace", "Guardfile", "Gemfile", "Gemfile.lock", ".sass-cache"]
