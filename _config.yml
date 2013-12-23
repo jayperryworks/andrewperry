@@ -1,10 +1,8 @@
 name: Andrew Perry
 url: http://andrewperry.us
-baseurl: andrewperry/
+baseurl: /andrewperry
 
 markdown: redcarpet
-redcarpet:
-  extensions: ['smart', 'tables', 'autolink']
 
 pygments: true
 
