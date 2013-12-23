@@ -1,8 +1,7 @@
 ---
 layout: post
 title:  "Kitchen Utensils"
-categories: work
-medium: steel
+categories: [work, steel]
 tags: [utensils, kitchen, spork]
 ---
 

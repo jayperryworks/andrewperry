@@ -5,17 +5,18 @@ title: Thinking
 
 <main role="main" class="narrow">
 	<ul class="posts">
-		{% for post in (1...12) %}
+		{% for post in site.categories.blog %}
 		<li class="post excerpt">
 			<hgroup>
-				<h1>Lorem ipsum dolor sit amet</h1>
-				<h4>Subhead Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam distinctio itaque voluptate</h4>
-				<time datetime="2001-05-15">December 25</time>
+				<h1>{{ post.title }}</h1>
+				{% if post.subtitle %}<h4>{{ post.subtitle }}</h4>{% endif %}
+				<time datetime="{{ post.date }}">{{ post.date | date: "%B %d, %Y" }}</time>
 			</hgroup>
-			<figure>
+			<!-- <figure>
 				<a href="#"><img src="http://placehold.it/800x450" alt="post image" /></a>
-			</figure>
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum, libero, officia quod repellat atque qui esse soluta dolorum voluptatibus id possimus excepturi temporibus deleniti blanditiis beatae. Perspiciatis, vitae, debitis, omnis ipsam consequatur nostrum voluptatum ea in molestias commodi quae nulla fuga cupiditate quas unde ab neque reprehenderit eligendi impedit exercitationem.... <a href="#" class="read_more">read more &rsaquo;</a></p>
+			</figure> -->
+			{{ post.excerpt }}
+			<a href="#" class="read_more">read more &rsaquo;</a>
 		</li>
 		{% endfor %}
 	</ul>

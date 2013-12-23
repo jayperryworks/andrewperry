@@ -1,8 +1,7 @@
 ---
 layout: post
 title:  "Eryn's Brooch"
-categories: work
-medium: steel
+categories: [work, steel]
 tags: [jewelry, brooch]
 ---
 
