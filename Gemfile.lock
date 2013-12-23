@@ -93,7 +93,7 @@ GEM
     rdiscount (1.6.8)
     redcarpet (2.2.2)
     safe_yaml (0.7.1)
-    sass (3.2.12)
+    sass (3.2.13)
     singularitygs (1.1.2)
       breakpoint (>= 2.0.1)
       compass (>= 0.12.2)
