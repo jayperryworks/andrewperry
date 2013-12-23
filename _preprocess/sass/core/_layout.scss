@@ -10,11 +10,11 @@ html {
 	}
 
 	@include breakpoint($medium) {
-		font-size: 120%;
+		font-size: 118%;
 	}
 
 	@include breakpoint($large) {
-		font-size: 150%;
+		font-size: 125%;
 	}
 }
 
@@ -52,7 +52,7 @@ body {
 	margin: 0;
 	padding: (gutter-span()/2);
 
-	@include breakpoint($medium) {
+	@include breakpoint($large) {
 		padding: (gutter-span()/2) 0;
 	}
 }

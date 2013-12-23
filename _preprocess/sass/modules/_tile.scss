@@ -11,7 +11,7 @@
 	width: column-span(6, 1);
 	padding: (gutter-span()/2);
 
-	&:first-child {
+	&:nth-child(3n + 1) {
 		margin-left: 0;
 	}
 	
@@ -30,3 +30,9 @@
 
 // SUBMODULES
 // -----------------------------------------------------------------------------
+
+.tile-thumb {
+  // @include rem(height, 200px);
+  // display: block;
+  // overflow: hidden;
+}

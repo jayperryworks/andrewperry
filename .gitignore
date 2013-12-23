@@ -3,3 +3,4 @@ codekit-config.json
 andrewperry.sublime-project
 andrewperry.sublime-workspace
 .sass-cache/
+.sass-cache/*

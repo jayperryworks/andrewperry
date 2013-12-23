@@ -1094,13 +1094,13 @@ html {
 @media (min-width: 80em) {
   /* line 5, ../../_preprocess/sass/core/_layout.scss */
   html {
-    font-size: 120%;
+    font-size: 118%;
   }
 }
 @media (min-width: 90em) {
   /* line 5, ../../_preprocess/sass/core/_layout.scss */
   html {
-    font-size: 150%;
+    font-size: 125%;
   }
 }
 
@@ -1123,7 +1123,7 @@ body#work {
 [role="main"].narrow, .wrapper.narrow {
   max-width: 848px;
   margin: 0 auto;
-  padding: 0 24px;
+  padding: 0 1em;
 }
 
 /* line 44, ../../_preprocess/sass/core/_layout.scss */
@@ -1137,12 +1137,12 @@ body#work {
 .grid {
   list-style: none;
   margin: 0;
-  padding: 12px;
+  padding: 0.5em;
 }
-@media (min-width: 80em) {
+@media (min-width: 90em) {
   /* line 50, ../../_preprocess/sass/core/_layout.scss */
   .grid {
-    padding: 12px 0;
+    padding: 0.5em 0;
   }
 }
 
@@ -1294,10 +1294,10 @@ ol, ul {
   margin-left: -5px;
   margin-left: -0.3125rem;
   width: 100%;
-  padding: 12px;
+  padding: 0.5em;
 }
 /* line 14, ../../_preprocess/sass/modules/_tile.scss */
-.tile:first-child {
+.tile:nth-child(3n + 1) {
   margin-left: 0;
 }
 @media (min-width: 30em) {
