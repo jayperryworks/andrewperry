@@ -3,6 +3,8 @@ url: http://andrewperry.us
 baseurl: /andrewperry
 
 markdown: redcarpet
+redcarpet:
+  extensions: ['smart', 'tables', 'autolink']
 
 pygments: true
 
