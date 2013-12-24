@@ -13,6 +13,7 @@
 // -----------------------------------------------------------------------------
 
 [role="banner"].main {
+	@include base-grid-margins;
 	position: absolute;
 	width: 100%;
 	left: 0;
@@ -20,16 +21,18 @@
 	right: 0;
 	z-index: $z--high;
 	height: $l-header-h;
-	border-top: 8px solid black;	
+	border-top: $border-w--thick solid $color-border--dark;
 	text-align: center;
+}
+
+#work [role="banner"].main {
+	border-top-color: $color--border--light;
 }
 
 .main-logo {
 	@extend %base-a-hidden;
-	// @include inline-block;
+	@include rem(margin, 12px 0 0 -30.5px);
 	display: block;
 	left: 50%;
-	// margin-left: (61px)/2;
-	@include rem(margin, 12px 0 0 -30.5px);
 	position: absolute;
 }

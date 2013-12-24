@@ -27,15 +27,17 @@ body {
 }
 
 [role="main"], .wrapper {
+	@include base-grid-margins;
 	max-width: 1280px;
 	margin: 0 auto;
+}
 
-	&.narrow {
+	.narrow, %narrow {
+		@include base-grid-margins;
 		max-width: 848px;
 		margin: 0 auto;
-		padding: 0 $grid-gutter;
+		// padding: 0 $grid-gutter;
 	}
-}
 
 %has-nested_columns {
 	padding: 0 -(gutter-span()/2);
@@ -51,6 +53,7 @@ body {
 	list-style: none;
 	margin: 0;
 	padding: (gutter-span()/2);
+	clear: both;
 
 	@include breakpoint($large) {
 		padding: (gutter-span()/2) 0;

@@ -11,26 +11,46 @@ hgroup {
 
 h1, %h1 {
 	@include rem(font-size, 32px);
+	@include merriweather;
+	color: $color-text--primary;
+	line-height: 1.2;
 }
 
 h2, %h2 {
-	@include rem(font-size, 27px);
+	@include rem(font-size, 26px);
+	@include open-sans(light);
+	color: $color-text--primary;
+	letter-spacing: -0.02em;
+	line-height: 1.2;
 }
 
 h3, %h3 {
 	@include rem(font-size, 18px);
+	@include open-sans(bold);
 }
 
 h4, %h4 {
 	@include rem(font-size, 18px);
+	@include open-sans;
 }
 
 h5, %h5 {
 	@include rem(font-size, 14px);
+	@include open-sans;
 }
 
 h6, %h6 {
 	@include rem(font-size, 12px);
+	@include open-sans;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+
+	strong, em {
+		font-weight: inherit;
+		color: $color-highlight;
+	}
 }
 
 // links
@@ -39,10 +59,11 @@ h6, %h6 {
 a {
 	@include base-transition;
 	text-decoration: none;
+	font-family: inherit;
+	color: $color-accent;
 
 	&:hover {
-		border-bottom-style: dotted;
-		border-bottom-width: 1px;
+		color: darken($color-accent, 5);
 	}
 }
 
@@ -62,16 +83,37 @@ h1, h2, h3, h4, h5, h6 {
 	}
 }
 
+// p > a {
+// 	border-bottom-style: dotted;
+// 	border-bottom-width: 1px;
+// }
+
 // text, lists, tables
 // ----------------------------------------------------------------------------
 
 // bigger first paragraph
-.intro {
-	@include rem(font-size, 21px);
+
+p {
+	margin: 1em 0;
 }
 
 p, table, li {
 	@include rem(font-size, 16px);
+	@include merriweather($spacing: 0);
+	color: $color-text--secondary;
+
+	strong {
+		@include merriweather($weight: bold, $spacing: 0);
+	}
+
+	em {
+		@include merriweather($style: italic, $spacing: 0);
+	}
+	// font-family: $georgia;
+}
+
+.intro, %intro {
+	@include rem(font-size, 21px);
 }
 
 ol, ul {
@@ -82,12 +124,19 @@ ol, ul {
 	// }
 }
 
+time {
+	@include open-sans(bold);
+	color: $color-accent;
+	letter-spacing: -0.02em;
+}
+
 // use playfair display if @font-face is supported
 .fontface .amp {
-	font-family: "Baskerville", "Palatino", "Book Antiqua", serif;
+	font-family: 'Playfair Display', serif;
 	font-style: normal;
 	font-weight: normal;
-	font-size: 1.1em; // rel
+	font-size: 1.1em; // relative to whatever type surrounds it -- it renders slightly bigger
+	line-height: 0.9;
 }
 
 // otherwise fall back to system fonts @ italic
@@ -96,6 +145,7 @@ ol, ul {
 	font-style: italic;
 	font-weight: normal;
 	font-size: 1.1em; // relative to whatever type surrounds it -- it renders slightly bigger
+	line-height: 0.9;
 }
 
 
@@ -104,8 +154,16 @@ ol, ul {
 // ==============================================================================
 
 %theme-dark {
-	background: black;
+	background: $color-bg--dark;
 	color: white;
+
+	h1, h2, h3, h4, h5, h6 {
+		color: white;
+	}
+
+	a {
+		color: $color-highlight;
+	}
 }
 
 %theme-light {

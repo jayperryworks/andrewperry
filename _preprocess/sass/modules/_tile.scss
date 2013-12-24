@@ -10,6 +10,10 @@
 	@include rem(margin-left, -5px);
 	width: column-span(6, 1);
 	padding: (gutter-span()/2);
+  
+  & > .tile-name {
+    margin-top: 0.3em;
+  }
 
 	&:nth-child(3n + 1) {
 		margin-left: 0;
@@ -31,8 +35,9 @@
 // SUBMODULES
 // -----------------------------------------------------------------------------
 
-.tile-thumb {
+.js .tile-thumb {
+  display: block;
   // @include rem(height, 200px);
   // display: block;
-  // overflow: hidden;
+  overflow: hidden;
 }
