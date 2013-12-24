@@ -20,23 +20,7 @@ textarea {
 }
 
 html {
-  // set up the base font size at each breakpoint
-  // this will scale the whole layout proportionately as the screen size changes
-  // and we only have to change one thing
   font-size: percent($type-size--default);
-
-  // @include breakpoint($small) {
-  //     font-size: percent($base-font-size--small);
-  // }
-
-  // @include breakpoint($medium) {
-  //     font-size: percent($base-font-size--medium);
-  // }
-
-  // @include breakpoint($large) {
-  //     font-size: percent($base-font-size--large);
-  // }
-
   line-height: $type-line_height;
 }
 

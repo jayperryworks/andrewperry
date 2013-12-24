@@ -26,12 +26,30 @@
 
     // Methods
     // ---------------------------------------------------------------
+    equalHeight : function(el) {
+      var currentShortest = 10000000000;
 
+      // find the tallest DIV in the row, and set the heights of all of the DIVs to match it.
+      el.each(function() {
+        // "caching"
+        var $el = $(this);
+        currentShortest = (currentShortest > $el.height()) ? ($el.height()) : (currentShortest);
+
+        // console.log(currentShortest + " | " + $el.height() + " | " + getOriginalHeight($el));
+      });
+      el.parent().height(currentShortest);
+    }
     
   };
 
   
-  $(window).load(function() {
-    andrewperry.init();
+  $(document).ready(function() {
+    // andrewperry.init();
+    andrewperry.equalHeight($(".tile-thumb img"));
   });
+
+  $(window).resize(function() {
+    andrewperry.equalHeight($(".tile-thumb img"));
+  });
+
 })(jQuery);

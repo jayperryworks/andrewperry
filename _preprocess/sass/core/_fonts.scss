@@ -4,6 +4,37 @@
 
 @charset "UTF-8";
 
+$vollkorn: 'Vollkorn', $georgia, serif;
+$merriweather: 'Merriweather', $georgia, serif;
+$open-sans: 'Open Sans', $lucida-grande, sans-serif;
+
+@mixin merriweather($weight: normal, $style: normal, $spacing: -0.01em) {
+  font-family: $merriweather;
+  font-style: #{$style};
+  letter-spacing: $spacing;
+
+  @if $weight == normal {
+    font-weight: 400;
+  } @elseif $weight == light {
+    font-weight: 300;
+  } @elseif $weight == bold {
+    font-weight: 700;
+  }
+}
+
+@mixin open-sans($weight: normal) {
+  font-family: $open-sans;
+  font-style: normal;
+
+  @if $weight == normal {
+    font-weight: 400;
+  } @elseif $weight == light {
+    font-weight: 300;
+  } @elseif $weight == bold {
+    font-weight: 700;
+  }
+}
+
 
 // Icon fonts
 // --------------------------------------------------------------------------

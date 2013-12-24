@@ -236,36 +236,28 @@
 // -> Requires _settings.scss (and set up for Bourbon NEAT)
 // -------------------------------------------------------------------------------
 
-// @mixin base-grid-margins($property: margin, $full: false, $add-gutter: false) {
-//   $gutter: 0;
-//   @if ($add-gutter == true) {
-//     $gutter: $base-gutter/2; // foundation global var - already in ems
-//   }
+@mixin base-grid-margins($property: padding, $full: false, $add-gutter: false) {
+  $gutter: 0;
+  @if ($add-gutter == true) {
+    $gutter: ($grid-gutter * $type-size--default)/2; // convert to px and divide by 2
+  }
   
-//   @include rem($property, 0 ($base-margin--xsmall + $gutter), $type-size--default);
-//   // #{$property}: 0 (em-calc($base-margin--xsmall) + $gutter);
+  @include rem(#{$property}-left, (nth($body-margins, 1) + $gutter), $type-size--default);
+  @include rem(#{$property}-right, (nth($body-margins, 1) + $gutter), $type-size--default);
+  // #{$property}: 0 (em-calc($base-margin--xsmall) + $gutter);
 
-//   @media #{$small} {
-//     @include rem($property, 0 ($base-margin--small + $gutter), $type-size--default);
-//     // #{$property}: 0 (em-calc($base-margin--small) + $gutter);
-//   }
+  @include breakpoint($small) {
+    @include rem(#{$property}-left, (nth($body-margins, 2) + $gutter), $type-size--default);
+    @include rem(#{$property}-right, (nth($body-margins, 2) + $gutter), $type-size--default);
+    // #{$property}: 0 (em-calc($base-margin--small) + $gutter);
+  }
 
-//   @media #{$medium} {
-//     @include rem($property, 0 ($base-margin--medium + $gutter), $type-size--default);
-//     // #{$property}: 0 (em-calc($base-margin--medium) + $gutter);
-//   }
-  
-//   @media #{$large} {
-//     @if ($full == true) {
-//       @include rem($property, 0 ($base-margin--large + $gutter), $type-size--default);
-//       // #{$property}: 0 (em-calc($base-margin--large) + $gutter);
-//     } @else {
-//       margin: 0 auto;
-//       // max-width: $row-width - (em-calc($base-margin--large) + $gutter);
-//       @include rem(max-width, $row-width - $base-margin--large, $type-size--default);
-//     }
-//   }
-// }
+  @include breakpoint($medium) {
+    @include rem(#{$property}-left, (nth($body-margins, 3) + $gutter), $type-size--default);
+    @include rem(#{$property}-right, (nth($body-margins, 3) + $gutter), $type-size--default);
+    // #{$property}: 0 (em-calc($base-margin--medium) + $gutter);
+  }
+}
 
 // make an inline (horizontal) list and vertically center child elements
 // use this on the li elements or just inside them (ie anchors)

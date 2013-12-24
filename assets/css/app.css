@@ -1,4 +1,4 @@
-/* line 14, ../../_preprocess/sass/core/_fonts.scss */
+/* line 45, ../../_preprocess/sass/core/_fonts.scss */
 [data-icon]:before {
   font-style: normal;
   font-weight: normal;
@@ -7,14 +7,14 @@
   text-align: center;
 }
 
-/* line 24, ../../_preprocess/sass/core/_fonts.scss */
+/* line 55, ../../_preprocess/sass/core/_fonts.scss */
 [data-icon]:before {
   content: attr(data-icon);
   speak: none;
   /* Not to be trusted, but hey. */
 }
 
-/* line 30, ../../_preprocess/sass/core/_fonts.scss */
+/* line 61, ../../_preprocess/sass/core/_fonts.scss */
 .screen-reader-text {
   /* For text that explains what the icon is (ie "RSS" or "Menu") */
   position: absolute;
@@ -530,7 +530,7 @@ button,
 input,
 select,
 textarea {
-  color: #333333;
+  color: #292826;
   -webkit-appearance: none;
 }
 
@@ -540,14 +540,14 @@ html {
   line-height: 1.5;
 }
 
-/* line 43, ../../_preprocess/sass/core/_base.scss */
+/* line 27, ../../_preprocess/sass/core/_base.scss */
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
 
-/* line 49, ../../_preprocess/sass/core/_base.scss */
+/* line 33, ../../_preprocess/sass/core/_base.scss */
 main {
   display: block;
 }
@@ -557,13 +557,13 @@ main {
  * These selection rule sets have to be separate.
  * Customize the background color to match your design.
  */
-/* line 59, ../../_preprocess/sass/core/_base.scss */
+/* line 43, ../../_preprocess/sass/core/_base.scss */
 ::-moz-selection {
   background: red;
   text-shadow: none;
 }
 
-/* line 64, ../../_preprocess/sass/core/_base.scss */
+/* line 48, ../../_preprocess/sass/core/_base.scss */
 ::selection {
   background: red;
   text-shadow: none;
@@ -572,7 +572,7 @@ main {
 /*
  * A better looking default horizontal rule
  */
-/* line 73, ../../_preprocess/sass/core/_base.scss */
+/* line 57, ../../_preprocess/sass/core/_base.scss */
 hr {
   display: block;
   height: 1px;
@@ -586,7 +586,7 @@ hr {
  * Remove the gap between images, videos, audio and canvas and the bottom of
  * their containers: h5bp.com/i/440
  */
-/* line 90, ../../_preprocess/sass/core/_base.scss */
+/* line 74, ../../_preprocess/sass/core/_base.scss */
 audio,
 canvas,
 img,
@@ -598,7 +598,7 @@ video {
 /*
  * Remove default fieldset styles.
  */
-/* line 99, ../../_preprocess/sass/core/_base.scss */
+/* line 83, ../../_preprocess/sass/core/_base.scss */
 fieldset {
   border: 0;
   margin: 0;
@@ -608,12 +608,12 @@ fieldset {
 /*
  * Allow only vertical resizing of textareas.
  */
-/* line 109, ../../_preprocess/sass/core/_base.scss */
+/* line 93, ../../_preprocess/sass/core/_base.scss */
 textarea {
   resize: vertical;
 }
 
-/* line 114, ../../_preprocess/sass/core/_base.scss */
+/* line 98, ../../_preprocess/sass/core/_base.scss */
 ol, ul, dl {
   margin-bottom: 0;
 }
@@ -621,14 +621,14 @@ ol, ul, dl {
 /*
  * Reset lists that appear in nav elements
  */
-/* line 121, ../../_preprocess/sass/core/_base.scss */
+/* line 105, ../../_preprocess/sass/core/_base.scss */
 nav ul {
   margin: 0;
   padding: 0;
   list-style: none;
 }
 
-/* line 127, ../../_preprocess/sass/core/_base.scss */
+/* line 111, ../../_preprocess/sass/core/_base.scss */
 p {
   text-align: left;
 }
@@ -1116,31 +1116,76 @@ body#work {
 
 /* line 29, ../../_preprocess/sass/core/_layout.scss */
 [role="main"], .wrapper {
+  padding-left: 18px;
+  padding-left: 1.125rem;
+  padding-right: 18px;
+  padding-right: 1.125rem;
   max-width: 1280px;
   margin: 0 auto;
 }
-/* line 33, ../../_preprocess/sass/core/_layout.scss */
-[role="main"].narrow, .wrapper.narrow {
-  max-width: 848px;
-  margin: 0 auto;
-  padding: 0 1em;
+@media (min-width: 48em) {
+  /* line 29, ../../_preprocess/sass/core/_layout.scss */
+  [role="main"], .wrapper {
+    padding-left: 24px;
+    padding-left: 1.5rem;
+    padding-right: 24px;
+    padding-right: 1.5rem;
+  }
+}
+@media (min-width: 80em) {
+  /* line 29, ../../_preprocess/sass/core/_layout.scss */
+  [role="main"], .wrapper {
+    padding-left: 48px;
+    padding-left: 3rem;
+    padding-right: 48px;
+    padding-right: 3rem;
+  }
 }
 
-/* line 44, ../../_preprocess/sass/core/_layout.scss */
+/* line 35, ../../_preprocess/sass/core/_layout.scss */
+.narrow, .post.full {
+  padding-left: 18px;
+  padding-left: 1.125rem;
+  padding-right: 18px;
+  padding-right: 1.125rem;
+  max-width: 848px;
+  margin: 0 auto;
+}
+@media (min-width: 48em) {
+  /* line 35, ../../_preprocess/sass/core/_layout.scss */
+  .narrow, .post.full {
+    padding-left: 24px;
+    padding-left: 1.5rem;
+    padding-right: 24px;
+    padding-right: 1.5rem;
+  }
+}
+@media (min-width: 80em) {
+  /* line 35, ../../_preprocess/sass/core/_layout.scss */
+  .narrow, .post.full {
+    padding-left: 48px;
+    padding-left: 3rem;
+    padding-right: 48px;
+    padding-right: 3rem;
+  }
+}
+
+/* line 46, ../../_preprocess/sass/core/_layout.scss */
 .posts {
   list-style: none;
   margin: 0;
   padding: 0;
 }
 
-/* line 50, ../../_preprocess/sass/core/_layout.scss */
+/* line 52, ../../_preprocess/sass/core/_layout.scss */
 .grid {
   list-style: none;
   margin: 0;
   padding: 0.5em;
+  clear: both;
 }
 @media (min-width: 90em) {
-  /* line 50, ../../_preprocess/sass/core/_layout.scss */
+  /* line 52, ../../_preprocess/sass/core/_layout.scss */
   .grid {
     padding: 0.5em 0;
   }
@@ -1150,103 +1195,206 @@ body#work {
 h1 {
   font-size: 32px;
   font-size: 2rem;
+  font-family: "Merriweather", Georgia, Cambria, "Times New Roman", Times, serif, serif;
+  font-style: normal;
+  letter-spacing: -0.01em;
+  font-weight: 400;
+  color: #292826;
+  line-height: 1.2;
 }
 
-/* line 16, ../../_preprocess/sass/core/_content.scss */
+/* line 19, ../../_preprocess/sass/core/_content.scss */
 h2 {
-  font-size: 27px;
-  font-size: 1.6875rem;
+  font-size: 26px;
+  font-size: 1.625rem;
+  font-family: "Open Sans", "Lucida Grande", Tahoma, Verdana, Arial, sans-serif, sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  color: #292826;
+  letter-spacing: -0.02em;
+  line-height: 1.2;
 }
 
-/* line 20, ../../_preprocess/sass/core/_content.scss */
+/* line 27, ../../_preprocess/sass/core/_content.scss */
 h3 {
   font-size: 18px;
   font-size: 1.125rem;
-}
-
-/* line 24, ../../_preprocess/sass/core/_content.scss */
-h4 {
-  font-size: 18px;
-  font-size: 1.125rem;
-}
-
-/* line 28, ../../_preprocess/sass/core/_content.scss */
-h5 {
-  font-size: 14px;
-  font-size: 0.875rem;
+  font-family: "Open Sans", "Lucida Grande", Tahoma, Verdana, Arial, sans-serif, sans-serif;
+  font-style: normal;
+  font-weight: 700;
 }
 
 /* line 32, ../../_preprocess/sass/core/_content.scss */
+h4 {
+  font-size: 18px;
+  font-size: 1.125rem;
+  font-family: "Open Sans", "Lucida Grande", Tahoma, Verdana, Arial, sans-serif, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+}
+
+/* line 37, ../../_preprocess/sass/core/_content.scss */
+h5 {
+  font-size: 14px;
+  font-size: 0.875rem;
+  font-family: "Open Sans", "Lucida Grande", Tahoma, Verdana, Arial, sans-serif, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+}
+
+/* line 42, ../../_preprocess/sass/core/_content.scss */
 h6 {
   font-size: 12px;
   font-size: 0.75rem;
+  font-family: "Open Sans", "Lucida Grande", Tahoma, Verdana, Arial, sans-serif, sans-serif;
+  font-style: normal;
+  font-weight: 400;
 }
 
-/* line 39, ../../_preprocess/sass/core/_content.scss */
+/* line 47, ../../_preprocess/sass/core/_content.scss */
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+/* line 50, ../../_preprocess/sass/core/_content.scss */
+h1 strong, h1 em, h2 strong, h2 em, h3 strong, h3 em, h4 strong, h4 em, h5 strong, h5 em, h6 strong, h6 em {
+  font-weight: inherit;
+  color: #bfab7c;
+}
+
+/* line 59, ../../_preprocess/sass/core/_content.scss */
 a {
-  -webkit-animation: all 0.5 ease;
-  -moz-animation: all 0.5 ease;
-  animation: all 0.5 ease;
+  -webkit-animation: all 0.5;
+  -moz-animation: all 0.5;
+  animation: all 0.5;
   text-decoration: none;
+  font-family: inherit;
+  color: #9e9783;
 }
-/* line 43, ../../_preprocess/sass/core/_content.scss */
+/* line 65, ../../_preprocess/sass/core/_content.scss */
 a:hover {
-  border-bottom-style: dotted;
-  border-bottom-width: 1px;
+  color: #938b75;
 }
 
-/* line 49, ../../_preprocess/sass/core/_content.scss */
-h1 a, h2 a, h3 a, h4 a, h5 a, h6 a, .main-logo {
+/* line 70, ../../_preprocess/sass/core/_content.scss */
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a, .button, .main-logo {
   text-decoration: none;
   color: inherit;
 }
-/* line 53, ../../_preprocess/sass/core/_content.scss */
-h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover, .main-logo:hover, h1 a:active, h2 a:active, h3 a:active, h4 a:active, h5 a:active, h6 a:active, .main-logo:active {
+/* line 74, ../../_preprocess/sass/core/_content.scss */
+h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover, .button:hover, .main-logo:hover, h1 a:active, h2 a:active, h3 a:active, h4 a:active, h5 a:active, h6 a:active, .button:active, .main-logo:active {
   color: inherit;
   border-bottom: none;
 }
 
-/* line 69, ../../_preprocess/sass/core/_content.scss */
+/* line 96, ../../_preprocess/sass/core/_content.scss */
+p {
+  margin: 1em 0;
+}
+
+/* line 100, ../../_preprocess/sass/core/_content.scss */
+p, table, li {
+  font-size: 16px;
+  font-size: 1rem;
+  font-family: "Merriweather", Georgia, Cambria, "Times New Roman", Times, serif, serif;
+  font-style: normal;
+  letter-spacing: 0;
+  font-weight: 400;
+  color: #7c7976;
+}
+/* line 105, ../../_preprocess/sass/core/_content.scss */
+p strong, table strong, li strong {
+  font-family: "Merriweather", Georgia, Cambria, "Times New Roman", Times, serif, serif;
+  font-style: normal;
+  letter-spacing: 0;
+  font-weight: 700;
+}
+/* line 109, ../../_preprocess/sass/core/_content.scss */
+p em, table em, li em {
+  font-family: "Merriweather", Georgia, Cambria, "Times New Roman", Times, serif, serif;
+  font-style: italic;
+  letter-spacing: 0;
+  font-weight: 400;
+}
+
+/* line 115, ../../_preprocess/sass/core/_content.scss */
 .intro {
   font-size: 21px;
   font-size: 1.3125rem;
 }
 
-/* line 73, ../../_preprocess/sass/core/_content.scss */
-p, table, li {
-  font-size: 16px;
-  font-size: 1rem;
-}
-
-/* line 77, ../../_preprocess/sass/core/_content.scss */
+/* line 119, ../../_preprocess/sass/core/_content.scss */
 ol, ul {
   margin-left: 1.5em;
 }
 
-/* line 86, ../../_preprocess/sass/core/_content.scss */
+/* line 127, ../../_preprocess/sass/core/_content.scss */
+time {
+  font-family: "Open Sans", "Lucida Grande", Tahoma, Verdana, Arial, sans-serif, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  color: #9e9783;
+  letter-spacing: -0.02em;
+}
+
+/* line 134, ../../_preprocess/sass/core/_content.scss */
 .fontface .amp {
-  font-family: "Baskerville", "Palatino", "Book Antiqua", serif;
+  font-family: 'Playfair Display', serif;
   font-style: normal;
   font-weight: normal;
   font-size: 1.1em;
+  line-height: 0.9;
 }
 
-/* line 94, ../../_preprocess/sass/core/_content.scss */
+/* line 143, ../../_preprocess/sass/core/_content.scss */
 .no-fontface .amp {
   font-family: "Baskerville", "Palatino", "Book Antiqua", serif;
   font-style: italic;
   font-weight: normal;
   font-size: 1.1em;
+  line-height: 0.9;
 }
 
-/* line 106, ../../_preprocess/sass/core/_content.scss */
-.hero {
-  background: black;
+/* line 156, ../../_preprocess/sass/core/_content.scss */
+footer, .footer, .hero {
+  background: #292826;
   color: white;
+}
+/* line 160, ../../_preprocess/sass/core/_content.scss */
+footer h1, .footer h1, .hero h1, footer h2, .footer h2, .hero h2, footer h3, .footer h3, .hero h3, footer h4, .footer h4, .hero h4, footer h5, .footer h5, .hero h5, footer h6, .footer h6, .hero h6 {
+  color: white;
+}
+/* line 164, ../../_preprocess/sass/core/_content.scss */
+footer a, .footer a, .hero a {
+  color: #bfab7c;
+}
+
+/* line 8, ../../_preprocess/sass/modules/_button.scss */
+.button.read_more {
+  font-family: "Open Sans", "Lucida Grande", Tahoma, Verdana, Arial, sans-serif, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  font-size: 0.75rem;
+  padding: 0.1875em 0.875em;
+  color: white;
+  background: #bfab7c;
+  border-radius: 100px;
+  text-transform: uppercase;
+}
+/* line 17, ../../_preprocess/sass/modules/_button.scss */
+.button.read_more:hover, .button.read_more:active {
+  -webkit-animation: all 0.5;
+  -moz-animation: all 0.5;
+  animation: all 0.5;
+  background: #b7a06b;
 }
 
 /* line 15, ../../_preprocess/sass/modules/_header.scss */
 [role="banner"].main {
+  padding-left: 18px;
+  padding-left: 1.125rem;
+  padding-right: 18px;
+  padding-right: 1.125rem;
   position: absolute;
   width: 100%;
   left: 0;
@@ -1254,16 +1402,39 @@ ol, ul {
   right: 0;
   z-index: 2;
   height: 95px;
-  border-top: 8px solid black;
+  border-top: 8px solid #292826;
   text-align: center;
 }
+@media (min-width: 48em) {
+  /* line 15, ../../_preprocess/sass/modules/_header.scss */
+  [role="banner"].main {
+    padding-left: 24px;
+    padding-left: 1.5rem;
+    padding-right: 24px;
+    padding-right: 1.5rem;
+  }
+}
+@media (min-width: 80em) {
+  /* line 15, ../../_preprocess/sass/modules/_header.scss */
+  [role="banner"].main {
+    padding-left: 48px;
+    padding-left: 3rem;
+    padding-right: 48px;
+    padding-right: 3rem;
+  }
+}
 
-/* line 27, ../../_preprocess/sass/modules/_header.scss */
+/* line 28, ../../_preprocess/sass/modules/_header.scss */
+#work [role="banner"].main {
+  border-top-color: #43423f;
+}
+
+/* line 32, ../../_preprocess/sass/modules/_header.scss */
 .main-logo {
-  display: block;
-  left: 50%;
   margin: 12px 0 0 -30.5px;
   margin: 0.75rem 0 0 -1.90625rem;
+  display: block;
+  left: 50%;
   position: absolute;
 }
 
@@ -1271,16 +1442,256 @@ ol, ul {
 [role="navigation"].global {
   display: block;
   float: right;
+  margin-top: -8px;
+}
+/* line 24, ../../_preprocess/sass/modules/_navigation.scss */
+[role="navigation"].global li {
+  margin-right: 12px;
+  margin-right: 0.75rem;
+  display: -moz-inline-stack;
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  zoom: 1;
+  *display: inline;
+}
+/* line 29, ../../_preprocess/sass/modules/_navigation.scss */
+[role="navigation"].global .global-item {
+  font-family: "Open Sans", "Lucida Grande", Tahoma, Verdana, Arial, sans-serif, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  font-size: 0.875rem;
+  -webkit-animation: all 0.5;
+  -moz-animation: all 0.5;
+  animation: all 0.5;
+  display: block;
+  margin-top: 8px;
+  padding: 1.125em 0.1875em 0 0.1875em;
+  text-transform: uppercase;
+  color: #9e9783;
+}
+/* line 40, ../../_preprocess/sass/modules/_navigation.scss */
+[role="navigation"].global .global-item:hover, [role="navigation"].global .global-item:active {
+  border-bottom: none;
+  color: #867e68;
+}
+/* line 45, ../../_preprocess/sass/modules/_navigation.scss */
+[role="navigation"].global .global-item.active {
+  margin-top: 0;
+  color: #292826;
+  border-top: 8px solid #bfab7c;
+}
+
+/* line 54, ../../_preprocess/sass/modules/_navigation.scss */
+#work [role="navigation"].global .global-item.active {
+  color: white;
+}
+
+/* line 61, ../../_preprocess/sass/modules/_navigation.scss */
+[role="navigation"].local {
+  margin: 18px 0;
+  margin: 1.125rem 0;
+  margin-left: 1em;
+  overflow: hidden;
+}
+/* line 65, ../../../../../../../../Library/Ruby/Gems/2.0.0/gems/singularitygs-1.1.2/stylesheets/singularitygs/helpers/_clearfix.scss */
+[role="navigation"].local:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* line 67, ../../_preprocess/sass/modules/_navigation.scss */
+[role="navigation"].local li {
+  display: -moz-inline-stack;
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  zoom: 1;
+  *display: inline;
+  margin-right: 0.75em;
+}
+/* line 72, ../../_preprocess/sass/modules/_navigation.scss */
+[role="navigation"].local .local-item {
+  font-family: "Open Sans", "Lucida Grande", Tahoma, Verdana, Arial, sans-serif, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  font-size: 0.75rem;
+  display: block;
+  color: #9e9783;
+  text-transform: uppercase;
+}
+/* line 79, ../../_preprocess/sass/modules/_navigation.scss */
+[role="navigation"].local .local-item:hover, [role="navigation"].local .local-item:active {
+  color: #938b75;
+  border-bottom: none;
+}
+/* line 84, ../../_preprocess/sass/modules/_navigation.scss */
+[role="navigation"].local .local-item.active {
+  padding: 0.25em 0.875em;
+  color: white;
+  background: #bfab7c;
+  border-radius: 100px;
+}
+
+/* line 8, ../../_preprocess/sass/modules/_footer.scss */
+footer, .footer {
+  padding-left: 18px;
+  padding-left: 1.125rem;
+  padding-right: 18px;
+  padding-right: 1.125rem;
+  padding-top: 18px;
+  padding-top: 1.125rem;
+  padding-bottom: 18px;
+  padding-bottom: 1.125rem;
+  margin-top: 36px;
+  margin-top: 2.25rem;
+  font-family: "Open Sans", "Lucida Grande", Tahoma, Verdana, Arial, sans-serif, sans-serif;
+  font-style: normal;
+  font-weight: 300;
+}
+@media (min-width: 48em) {
+  /* line 8, ../../_preprocess/sass/modules/_footer.scss */
+  footer, .footer {
+    padding-left: 24px;
+    padding-left: 1.5rem;
+    padding-right: 24px;
+    padding-right: 1.5rem;
+  }
+}
+@media (min-width: 80em) {
+  /* line 8, ../../_preprocess/sass/modules/_footer.scss */
+  footer, .footer {
+    padding-left: 48px;
+    padding-left: 3rem;
+    padding-right: 48px;
+    padding-right: 3rem;
+  }
+}
+/* line 16, ../../_preprocess/sass/modules/_footer.scss */
+footer small, .footer small {
+  font-size: 12px;
+  font-size: 0.75rem;
+  color: #867e68;
 }
 
 /* line 8, ../../_preprocess/sass/modules/_hero.scss */
 .hero {
-  padding-top: 95px;
-  padding-top: 5.9375rem;
+  padding: 95px 0 30px 0;
+  padding: 5.9375rem 0 1.875rem 0;
   position: relative;
   top: 0;
   overflow: auto;
   text-align: center;
+}
+
+/* line 20, ../../_preprocess/sass/modules/_hero.scss */
+.hero-name {
+  font-family: "Merriweather", Georgia, Cambria, "Times New Roman", Times, serif, serif;
+  font-style: normal;
+  letter-spacing: -0.01em;
+  font-weight: 300;
+  font-size: 21px;
+  font-size: 1.3125rem;
+  margin-top: 18px;
+  margin-top: 1.125rem;
+  line-height: 1.4;
+}
+/* line 26, ../../_preprocess/sass/modules/_hero.scss */
+.hero-name strong {
+  padding-right: 0.5em;
+  margin-right: 0.5em;
+  border-right: 1px solid #514f4b;
+}
+
+/* line 15, ../../_preprocess/sass/modules/_post.scss */
+.post h2 {
+  color: #9e9783;
+}
+/* line 23, ../../_preprocess/sass/modules/_post.scss */
+.post p img {
+  display: block;
+  margin: 0 auto;
+}
+/* line 27, ../../_preprocess/sass/modules/_post.scss */
+.post p img:after {
+  content: attr(title);
+  display: block;
+  font-size: 12px;
+}
+
+/* line 40, ../../_preprocess/sass/modules/_post.scss */
+.post.excerpt {
+  margin: 24px 0;
+  margin: 1.5rem 0;
+  padding: 24px 0;
+  padding: 1.5rem 0;
+  border-bottom: 1px solid #9e9783;
+}
+/* line 45, ../../_preprocess/sass/modules/_post.scss */
+.post.excerpt:last-child {
+  border-bottom: none;
+}
+
+/* line 50, ../../_preprocess/sass/modules/_post.scss */
+.post > time {
+  font-family: "Merriweather", Georgia, Cambria, "Times New Roman", Times, serif, serif;
+  font-style: italic;
+  letter-spacing: -0.01em;
+  font-weight: 400;
+  padding: 2px 0;
+  padding: 0.125rem 0;
+  font-size: 14px;
+  font-size: 0.875rem;
+  margin: 16px 0 0 -84px;
+  margin: 1rem 0 0 -84px;
+  width: 60px;
+  width: 3.75rem;
+  display: block;
+  float: left;
+  color: #bfab7c;
+  text-align: center;
+}
+
+/* line 70, ../../_preprocess/sass/modules/_post.scss */
+.post.full p:first-child {
+  font-size: 21px;
+  font-size: 1.3125rem;
+  color: red;
+}
+
+/* line 76, ../../_preprocess/sass/modules/_post.scss */
+.post-meta {
+  color: #9e9783;
+}
+/* line 79, ../../_preprocess/sass/modules/_post.scss */
+.post-meta dt, .post-meta dd {
+  display: -moz-inline-stack;
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  zoom: 1;
+  *display: inline;
+  font-size: 12px;
+  font-size: 0.75rem;
+  margin-right: 6px;
+  margin-right: 0.375rem;
+  margin-top: 0;
+  margin-left: 0;
+  text-transform: uppercase;
+}
+/* line 88, ../../_preprocess/sass/modules/_post.scss */
+.post-meta dt {
+  font-family: "Open Sans", "Lucida Grande", Tahoma, Verdana, Arial, sans-serif, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+}
+/* line 92, ../../_preprocess/sass/modules/_post.scss */
+.post-meta dd {
+  font-family: "Open Sans", "Lucida Grande", Tahoma, Verdana, Arial, sans-serif, sans-serif;
+  font-style: normal;
+  font-weight: 400;
 }
 
 /* line 8, ../../_preprocess/sass/modules/_tile.scss */
@@ -1297,6 +1708,10 @@ ol, ul {
   padding: 0.5em;
 }
 /* line 14, ../../_preprocess/sass/modules/_tile.scss */
+.tile > .tile-name {
+  margin-top: 0.3em;
+}
+/* line 18, ../../_preprocess/sass/modules/_tile.scss */
 .tile:nth-child(3n + 1) {
   margin-left: 0;
 }
@@ -1317,4 +1732,10 @@ ol, ul {
   .tile {
     width: 33.33333%;
   }
+}
+
+/* line 38, ../../_preprocess/sass/modules/_tile.scss */
+.js .tile-thumb {
+  display: block;
+  overflow: hidden;
 }

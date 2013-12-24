@@ -4,4 +4,5 @@ andrewperry.sublime-project
 andrewperry.sublime-workspace
 .sass-cache/
 .sass-cache/*
+*.sass-cache*
 .bundle/
